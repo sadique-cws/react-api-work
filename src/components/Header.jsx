@@ -11,6 +11,7 @@ const Header = () => {
             <div className='flex flex-1 mt-10 px-[10%] gap-4'>
                 <NavLink to="/subject" className="bg-red-600 text-white px-3 py-2 rounded">View All Subjects</NavLink>
                 <NavLink to="/skills" className="bg-blue-600 text-white px-3 py-2 rounded">View All Skills</NavLink>
+                <NavLink to="/pincode" className="bg-teal-600 text-white px-3 py-2 rounded">Search By Pincode</NavLink>
             </div>
         </>
     )

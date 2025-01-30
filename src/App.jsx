@@ -5,6 +5,7 @@ import Login from './components/Login'
 import HomePage from './components/HomePage'
 import ManageSubjects from './components/ManageSubjects'
 import ManageSkills from './components/ManageSkills'
+import SearchPinCode from './components/SearchPinCode'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Route path='/' element={<HomePage />} />
       <Route path='/subject' element={<ManageSubjects />} />
       <Route path='/skills' element={<ManageSkills />} />
+      <Route path='/pincode' element={<SearchPinCode />} />
     </Routes>
 
   )
